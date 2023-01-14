@@ -37,10 +37,21 @@ nav{
 	font-size: 26px;
 	font-weight: 800;
 }
+.logo h2{
+	font-family: 'Russo One', sans-serif;
+}
 .navbar{
 	display: flex;
 	gap: 30px;
 	font-size: 18px;
+}
+.navbar p{
+	padding:0px 3px;
+}
+.navbar p:hover{
+	border-bottom: 3px solid green;
+	border-radius: 3px;
+	
 }
 .navbar a{
 	text-decoration: none;
@@ -87,7 +98,6 @@ main{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
 	gap: 15px;
-	
 }
 .features-img img{
 	width: 100%;

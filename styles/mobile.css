@@ -27,6 +27,11 @@ nav{
 	font-size: 14px;
 	text-align: justify;
 }	
+.brand-desc img{
+	background-blend-mode: difference;
+	background-image:
+            linear-gradient(135deg,#ff7400 20%,white)
+}
 .QL-features{
 	padding: 30px 10px;
 	flex-direction: column;
@@ -129,7 +134,7 @@ footer{
 	font-size: 10px;
 	padding: 20px 10px;
 	border-radius: 5px;
-	box-shadow: 2px 2px 20px #86cecb;
+	box-shadow: 2px 5px 20px #86cecb;
 }
 	
 }
