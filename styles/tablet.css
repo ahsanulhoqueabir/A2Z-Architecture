@@ -1,4 +1,7 @@
 @media screen and (min-width:587px) and (max-width:992px){
+	.hide{
+	display:none
+}
 nav{
 	padding: 30px 30px;	
 }	
@@ -43,23 +46,43 @@ nav{
 }
 .feature-text h3{
 	border-left: 4px solid #ff900e;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 700;
 	padding: 0px 50px 0px 10px;
 }
+.feature-text p{
+	font-size:14px;
+	padding: 10px 0px;
+}
 .feature-desc{
-	margin: 15px 0px 15px 0px;
-	padding: 10px;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 5px 10px;
+}
+.feature-desc p{
+	font-size: 10px;
 }
 .feature-img{
 	width:50%;
 	position: relative;
 }
+.feature-img img{
+	height: 90%;
+	width: 100%;
+}
 .experience{
-	padding: 15px 30px;
+	position: absolute;
+	bottom: 15px;
+	left: -30px;
+	background: teal;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 8px;
 }
 .experience h2{
-	font-size: 35px;
+	font-size: 25px;
+}
+.experience p{
+	font-size: 14px;
 }
 .fact{
 	padding: 30px 30px;
@@ -76,9 +99,11 @@ nav{
 .fact-details{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
-	gap: 30px;
-	width: 100%;
-	padding: 0px 40px ;
+	column-gap: 40px;
+	grid-row-gap: 30px;
+	width: 90%;
+	justify-items: center;
+	padding: 0px 50px ;
 }	
 .fact-box{
 	padding: 10px 15px;
