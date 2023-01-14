@@ -25,9 +25,11 @@ nav{
 	text-align: justify;
 }	
 .brand-desc img{
-	background-blend-mode: difference;
-	background-image:
-            linear-gradient(135deg,#ff7400 20%,white)
+}
+.brand-banner img{
+	width: 90%;
+	box-shadow: 3px 4px 30px teal;
+	border-radius: 8px;
 }
 .QL-features{
 	padding: 30px 10px;
