@@ -229,8 +229,7 @@ main{
 .sponsor-brand{
 	display: flex;
 	gap: 100px;
-	align-items: center;
-	
+	align-items: center;	
 }
 .sponsor-brand img{
 	height: 30px;

@@ -1,0 +1,135 @@
+@media screen and (max-width:588px){
+.hide{
+	display:none
+}
+.primary-btn{
+	padding: 10px 20px;
+}
+nav{
+	padding: 30px 0px 30px 0px;
+	flex-direction: column;
+	gap: 30px;
+}
+.navbar{
+	justify-content: space-around;
+}
+.brand-desc{
+	padding: 20px 0px 0px 0px;
+	display: flex;
+	flex-direction: column-reverse;
+}
+.brand-desc h1{
+	font-size: 30px;
+	padding: 20px 0px;
+}
+.brand-desc p{
+	padding: 10px;
+	font-size: 14px;
+	text-align: justify;
+}	
+.QL-features{
+	padding: 30px 10px;
+	flex-direction: column;
+	width: 95%;
+}	
+.features-img{
+	width: 100%;
+	gap: 10px;	
+}
+.features-text{
+	width: 100%;
+	gap: 10px;
+}
+.features-text h2{
+	font-size: 35px;
+	font-weight: 700;
+}
+.Ftext1{
+	font-size: 30px;
+}
+.features-LE{
+	padding: 30px 10px 0px 10px;
+	flex-direction: column;
+}
+.feature-text{
+	width: 100%;
+}
+.feature-text h3{
+	border-radius: 4px;
+	padding: 0px 50px 0px 10px;
+}
+.feature-desc{
+	margin: 15px 30px 15px 10px;
+	padding: 15px;
+	border-radius: 8px;
+	background: #FFFFFF;
+	box-shadow: -5px -5px 10px #e8f4ea;
+}
+.feature-img{
+	width:100%;
+	position: relative;
+}
+.feature-img img{
+	width: 100%;
+	height: 40%;
+}
+.experience{
+	position: absolute;
+	bottom: 95%;
+	left: 15%;
+	padding: 10px 22%;
+}
+.experience h2{
+	font-size: 30px;
+}
+.experience p{
+	font-size: 14px;
+}
+.fact{
+	padding: 30px 0px;
+	flex-direction: column;
+	gap: 40px;
+}
+.fact-intro{
+	padding: 30px 30px 5px 10px;
+}
+.fact-details{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 8px;
+	width: 95%;
+	padding: 0px 10px ;
+}	
+.fact-box{
+	padding: 30px 25px;
+}
+.sponsor{
+	padding: 70px 10px;
+	align-items: center;
+	gap: 40px;
+	text-align: justify;
+}
+.sponsor-text h3{
+	font-size:30px;
+	font-weight: 700;
+}
+.sponsor-text p{
+	padding: 0px 0px;
+}
+.sponsor-brand{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap: 30px;
+	margin: 20px;	
+}
+footer{
+	padding:0px;
+}
+.footer{
+	font-size: 10px;
+	padding: 20px 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 20px #86cecb;
+}
+	
+}
