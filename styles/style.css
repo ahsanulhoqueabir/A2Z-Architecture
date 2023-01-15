@@ -238,14 +238,17 @@ main{
 	20%{
 		left: 80px;
 		top:-30px;
+		background:#00b159;
 	}
 	50%{
 		left: 80px;
 		top:200px;
+		background:#41533b;
 	}
 	80%{
 		left:-80px;
 		top:200px;
+		background:#604439;
 	}
 	100%{
 		left:-80px;
