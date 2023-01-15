@@ -2,9 +2,11 @@
 	.hide{
 	display:none
 }
+/*nav style starts from here */
 nav{
 	padding: 30px 30px;	
 }	
+/* Brand description style starts from here */
 .brand-desc{
 	padding: 30px 30px;
 }
@@ -19,6 +21,7 @@ nav{
 .primary-btn{
 	padding: 13px 20px;
 }
+/* Quick link div style starts from here */
 .QL-features{
 	padding: 30px 50px;
 	display: flex;
@@ -37,6 +40,7 @@ nav{
 	color: gray;
 	font-size: 30px;
 }
+/* features div style starts from here */
 .features-LE{
 	padding: 30px 30px;
 	gap: 30px;
@@ -55,7 +59,7 @@ nav{
 	padding: 10px 0px;
 }
 .feature-desc{
-	margin: 10px 0px 10px 0px;
+	margin: 10px 20px 10px 0px;
 	padding: 10px 0px 5px 10px;
 }
 .feature-desc p{
@@ -84,6 +88,7 @@ nav{
 .experience p{
 	font-size: 14px;
 }
+/* fact div style starts from here */
 .fact{
 	padding: 30px 30px;
 	display: flex;
@@ -107,7 +112,32 @@ nav{
 }	
 .fact-box{
 	padding: 10px 15px;
+	width:170px;
 }
+/* Fact box animation style starts from here */
+@keyframes sliding{
+	0%{
+		left:-85px;
+		top:-5px;
+	}
+	20%{
+		left: 85px;
+		top:0px;
+	}
+	50%{
+		left: 85px;
+		top:175px;
+	}
+	70%{
+		left:-85px;
+		top:175px;
+	}
+	100%{
+		left:-85px;
+		top:-5px;
+	}
+}
+/* Sponsor div style starts from here */
 .sponsor{
 	padding: 70px 30px;
 	gap: 40px;
@@ -132,6 +162,13 @@ nav{
 	grid-row-gap:30px;
 	margin: 20px 0px;	
 }
+/* Extra section style starts from here */
+.team-member{
+	grid-template-columns: repeat(2,1fr);
+	gap: 40px;
+	margin: 20px 20px;;
+}
+/* footer style starts from here */
 footer{
 	padding: 50px 0px 0px 0px;
 }

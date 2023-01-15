@@ -14,6 +14,8 @@ font-family: 'Work Sans', sans-serif;
 font-family: 'Yatra One', cursive;
 */
 
+
+/* Universal Declartion style starts from here */
 *{
 	margin:0;
 	font-family: 'Work Sans', sans-serif;
@@ -21,11 +23,12 @@ font-family: 'Yatra One', cursive;
 p{
 	color: gray;
 }
-
+/*header style starts from here */
 header{
 	background:#FF900E1A;
 
 }
+/*nav style starts from here */
 nav{
 	padding: 30px 130px;
 	display: flex;
@@ -39,6 +42,11 @@ nav{
 }
 .logo h2{
 	font-family: 'Russo One', sans-serif;
+}
+.logo-t{
+	font-family: 'Russo One', sans-serif;
+	color: #009246;
+	letter-spacing: 2px;
 }
 .navbar{
 	display: flex;
@@ -57,6 +65,7 @@ nav{
 	text-decoration: none;
 	color: black;
 }
+/* Brand description style starts from here */
 .brand-desc{
 	padding: 30px 130px;
 	text-align: center;
@@ -85,9 +94,11 @@ nav{
 	background:teal;
 	color: white;
 }
+/* main style starts from here */
 main{
 	font-family: 'Work Sans', sans-serif;
 }
+/* Quick link div style starts from here */
 .QL-features{
 	padding: 30px 160px;
 	display: flex;
@@ -121,6 +132,7 @@ main{
 .Ftext2{
 	color: #FF900E;
 }
+/* features div style starts from here */
 .features-LE{
 	padding: 30px 130px;
 	display: flex;
@@ -182,6 +194,7 @@ main{
 	background:#bec8d1;
 	color: #137a7f;
 }
+/* fact div style starts from here */
 .fact{
 	padding: 30px 130px;
 	display: flex;
@@ -213,9 +226,44 @@ main{
 }
 .fact-box img{
 	padding-bottom: 10px;
-	height:40%;
-	width: 40%;
+	height:80px;
+	width: 70px;
 }
+/* Fact box animation style starts from here */
+@keyframes sliding{
+	0%{
+		left:-80px;
+		top:-30px;
+	}
+	20%{
+		left: 80px;
+		top:-30px;
+	}
+	50%{
+		left: 80px;
+		top:200px;
+	}
+	80%{
+		left:-80px;
+		top:200px;
+	}
+	100%{
+		left:-80px;
+		top:-30px;
+	}
+}
+.ball{
+	height:10px;
+	width: 10px;
+	border-radius: 50%;
+	background: teal;
+	position: relative;
+	top:-30px;
+	left:-80px;
+	animation:sliding 5s linear 0.5s infinite normal;
+	animation-play-state: running;
+}
+/* Sponsor div style starts from here */
 .sponsor{
 	padding: 70px 130px;
 	display: flex;
@@ -245,6 +293,81 @@ main{
 	height: 30px;
 	filter: grayscale(100%);
 }
+/* Extra section style starts from here */
+.members>h3{
+	text-align: center;
+	font-size:45px;
+	margin: 30px 0px 80px 0px;
+}
+.team-member{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap: 30px;
+	margin: 30px 120px;
+}
+.member{
+	background: #f2f2f2;
+	border-radius: 10px;
+	box-shadow: 3px -2px 10px cadetblue;
+}
+.member-basic img{
+	margin: -50px auto 0 auto;
+	height:90px;
+	width:95px;
+	border-radius: 50%;
+	border: 5px solid white;
+	padding: 15px 0px 0px 0px;
+	background: #006666;
+}
+.member-basic{
+	position: relative;
+	margin: 5px 20px;
+	height: 380px;	
+}
+.member-desc{
+	position: absolute;
+	top:0;
+	left:0;
+	display: none;
+	padding: 30px 0px;
+	margin: 100px 0px;
+}
+.member-desc h4{
+	padding: 15px 0px;
+}
+.member-desc p{
+	padding: 5px;
+	color: black;
+}
+.member-desc img{
+	margin: -50px auto 0 auto;
+	height:90px;
+	width:95px;
+	border-radius: 50%;
+	border: 5px solid white;
+	padding: 15px 0px 0px 0px;
+	background: #green;
+}
+.member-btnn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 80px;
+}
+.member-btn{
+	padding: 10px 20px;
+	text-align:center;
+}
+.fa-check{
+	color: green;
+}
+.hover:hover >p{
+	opacity: 0;
+}
+.hover:hover .member-desc{
+	display: block;
+}
+/* footer style starts from here */
 footer{
 	padding: 70px 130px;
 }

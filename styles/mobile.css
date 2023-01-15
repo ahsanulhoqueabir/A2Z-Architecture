@@ -2,14 +2,22 @@
 .primary-btn{
 	padding: 10px 20px;
 }
+/*nav style starts from here */
 nav{
 	padding: 30px 0px 30px 0px;
 	flex-direction: column;
 	gap: 30px;
 }
 .navbar{
-	justify-content: space-around;
+	flex-direction: column;
+	justify-content: center;
+	gap:20px;
+	text-align: center;
 }
+.fa-user{
+	font-size:18px;
+}
+/* Brand description style starts from here */
 .brand-desc{
 	padding: 20px 0px 0px 0px;
 	display: flex;
@@ -28,6 +36,7 @@ nav{
 	width: 90%;
 	box-shadow: 3px 4px 20px teal;
 }
+/* Quick link div style starts from here */
 .QL-features{
 	padding: 30px 10px;
 	flex-direction: column;
@@ -35,7 +44,7 @@ nav{
 }	
 .features-img{
 	width: 100%;
-	gap: 10px;	
+	gap: 8px;	
 }
 .features-text{
 	width: 100%;
@@ -48,6 +57,7 @@ nav{
 .Ftext1{
 	font-size: 30px;
 }
+/* features div style starts from here */
 .features-LE{
 	padding: 30px 10px 0px 10px;
 	flex-direction: column;
@@ -86,6 +96,7 @@ nav{
 .experience p{
 	font-size: 14px;
 }
+/* fact div style starts from here */
 .fact{
 	padding: 30px 0px;
 	flex-direction: column;
@@ -100,10 +111,36 @@ nav{
 	gap: 8px;
 	width: 95%;
 	padding: 0px 10px ;
+	
 }	
 .fact-box{
 	padding: 30px 25px;
+	height: 230px;
 }
+/* Fact box animation style starts from here */
+@keyframes sliding{
+	0%{
+		left:-75px;
+		top:-20px;
+	}
+	20%{
+		left: 75px;
+		top:-20px;
+	}
+	50%{
+		left: 75px;
+		top:240px;
+	}
+	80%{
+		left:-75px;
+		top:240px;
+	}
+	100%{
+		left:-75px;
+		top:-20px;
+	}
+}
+/* Sponsor div style starts from here */
 .sponsor{
 	padding: 70px 10px;
 	align-items: center;
@@ -123,6 +160,18 @@ nav{
 	gap: 30px;
 	margin: 20px;	
 }
+/* Extra section style starts from here */
+.members>h3{
+	text-align: center;
+	font-size:45px;
+	margin: 30px 0px 80px 0px;
+}
+.team-member{
+	grid-template-columns: repeat(1,1fr);
+	gap: 80px;
+	margin: 20px 20px;;
+}
+/* footer style starts from here */
 footer{
 	padding:0px;
 }
