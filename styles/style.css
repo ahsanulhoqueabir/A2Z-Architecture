@@ -322,7 +322,7 @@ main{
 .member-basic{
 	position: relative;
 	margin: 5px 20px;
-	height: 380px;	
+	height: 380px;
 }
 .member-desc{
 	position: absolute;
@@ -331,6 +331,7 @@ main{
 	display: none;
 	padding: 30px 0px;
 	margin: 100px 0px;
+	transition:5s ease-in;
 }
 .member-desc h4{
 	padding: 15px 0px;
@@ -353,15 +354,20 @@ main{
 	justify-content: center;
 	align-items: center;
 	margin-top: 80px;
+	
 }
 .member-btn{
 	padding: 10px 20px;
 	text-align:center;
+
 }
 .fa-check{
 	color: green;
 }
-.hover:hover >p{
+.hover{
+	transition:5s ease-in;
+}
+.hover:hover > p{
 	opacity: 0;
 }
 .hover:hover .member-desc{
